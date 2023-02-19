@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+section {
+  width: 90%;
+}
+
+.navbar {
+  height: 50px;
+  width: 100%;
+  background-color: rgba(181, 175, 175, 0.2);
+  position: relative;
+}
+
+nav li {
+  list-style-type: none;
+  float: right;
+  padding-left: 25px;
+  margin-top: 15px;
+  margin-right: 12px;
+}
+
+nav a {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+nav a:hover {
+  filter: opacity(50%);
+}
+
+h1 {
+  font-size: 40px;
+  margin: 16px 0 16px 0;
+  padding-left: 20px;
+}
+
+section .img1 {
+  width: 70%;
+  object-fit: cover;
+  height: 100%;
+  padding-left: 20px;
+}
+
+p {
+  font-family: sans-serif;
+  font-size: 18px;
+  padding-left: 15px;
+  padding-right: 18px;
+  letter-spacing: 0.4px;
+  line-height: 1.5;
+  word-wrap: break-word;
+  text-align: justify;
+  display: block;
+}
+
+.food {
+  font-family: sans-serif;
+  font-size: 18px;
+  padding-left: 25px;
+  padding-right: 18px;
+  letter-spacing: 0.4px;
+  line-height: 1.5;
+  word-wrap: break-word;
+  text-align: justify;
+}
+
+h2 {
+  line-height: 32px;
+  display: block;
+  padding: 16px 20px;
+  font-weight: 700;
+}
+
+section .img2 {
+  width: 70%;
+  object-fit: cover;
+  height: 100%;
+  padding-left: 20px;
+}
+
+.navbar:hover {
+  background-color: transparent;
+}
+
+section .img3 {
+  width: 70%;
+  object-fit: cover;
+  height: 100%;
+  padding-left: 20px;
+}
+
+figcaption {
+  margin-top: 10px;
+  padding-left: 20px;
+  font-weight: 700;
+  line-height: 2;
+  margin-bottom: 10px;
+}
+
+hr {
+  width: 98%;
+  margin-left: 20px;
+}
+
+section .img4 {
+  width: 70%;
+  object-fit: cover;
+  height: 100%;
+  padding-left: 20px;
+}
+
+section .img5 {
+  width: 70%;
+  object-fit: cover;
+  height: 100%;
+  padding-left: 20px;
+}
